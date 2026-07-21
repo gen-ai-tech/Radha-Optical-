@@ -111,7 +111,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="mt-16 rounded-3xl overflow-hidden shadow-2xl border border-slate-700 h-[350px] md:h-[450px] relative w-full"
+          className="mt-16 rounded-3xl overflow-hidden shadow-2xl border border-slate-700 h-[300px] md:h-[320px] relative w-full md:max-w-3xl mx-auto"
         >
           <iframe 
             src="https://maps.google.com/maps?q=Radha%20Optical%20Co%2C%20Alagapuram%2C%20Salem%2C%20Tamil%20Nadu&t=&z=16&ie=UTF8&iwloc=&output=embed" 
