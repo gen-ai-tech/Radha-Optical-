@@ -5,14 +5,14 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative pt-28 md:pt-[clamp(6rem,8vw,9rem)] pb-8 md:pb-fluid-section flex items-center justify-center bg-slate-50 overflow-hidden">
+    <section id="hero" className="relative pt-28 md:pt-[clamp(6rem,8vw,9rem)] pb-20 md:pb-32 flex items-center justify-center bg-slate-50 overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
         <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-100/40 blur-3xl" />
         <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-100/40 blur-3xl" />
       </div>
 
-      <div className="max-w-7xl mx-auto px-fluid-container relative z-10 grid md:grid-cols-2 gap-fluid items-center w-full">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-2 gap-12 md:gap-24 items-center w-full">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -21,12 +21,12 @@ const Hero = () => {
         >
 
           
-          <h1 className="text-fluid-h1 font-bold text-slate-900 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl leading-tight font-bold text-slate-900 mb-6">
             Precision Vision, <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-600">Premium Style.</span>
           </h1>
           
-          <p className="text-fluid-p text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
+          <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
             Experience world-class eye care and discover our exclusive collection of premium eyewear at Salem's most trusted optical center.
           </p>
           
