@@ -16,11 +16,6 @@ const Footer = () => {
           <p className="text-sm max-w-sm mb-6">
             Providing premium eye care and exclusive eyewear collections to the residents of Salem for years. Your vision is our priority.
           </p>
-          <div className="flex gap-4">
-            <a href="#" className="text-sm hover:text-teal-400 transition-colors">Facebook</a>
-            <a href="#" className="text-sm hover:text-teal-400 transition-colors">Instagram</a>
-            <a href="#" className="text-sm hover:text-teal-400 transition-colors">Twitter</a>
-          </div>
         </div>
 
         <div>
