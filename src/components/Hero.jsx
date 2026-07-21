@@ -11,11 +11,11 @@ const Hero = () => {
         <img 
           src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
           alt="Premium optical store background" 
-          className="absolute inset-0 w-full h-full object-cover opacity-25"
+          className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-50/90 via-white/80 to-teal-50/90"></div>
-        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-200/40 blur-3xl" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-200/40 blur-3xl" />
+        <div className="absolute inset-0 bg-gradient-to-br from-white/70 via-white/80 to-teal-50/80"></div>
+        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-300/30 blur-3xl" />
+        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-300/30 blur-3xl" />
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-2 gap-12 md:gap-24 items-center w-full">
