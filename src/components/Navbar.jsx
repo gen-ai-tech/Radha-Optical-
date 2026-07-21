@@ -27,7 +27,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-fluid-container">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2 cursor-pointer">
-            <img src="/logo.png" alt="Radha Optical Co" className="h-10 w-10 rounded-full object-cover border border-teal-500/30 shadow-sm" />
+            <div className="h-10 w-10 rounded-full bg-teal-500/20 flex items-center justify-center border border-teal-500/30 shadow-sm">
+              <Eye className="h-6 w-6 text-teal-400" />
+            </div>
             <div className="flex flex-col">
               <span className="font-bold text-xl leading-none text-white">Radha Optical Co</span>
             </div>
