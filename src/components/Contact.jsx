@@ -44,8 +44,8 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold mb-2">Location</h3>
                   <p className="text-slate-300 leading-relaxed">
-                    123 Optical Street, Near Main Junction<br />
-                    Salem, Tamil Nadu 636001
+                    Next to Hotel Cenneys Gateway, Near Five Roads,<br />
+                    Swarnapuri, Salem, Tamil Nadu 636004
                   </p>
                 </div>
               </div>
@@ -104,6 +104,24 @@ const Contact = () => {
             </form>
           </motion.div>
         </div>
+
+        {/* Embedded Interactive Map */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-16 rounded-3xl overflow-hidden shadow-2xl border border-slate-700 h-[350px] md:h-[450px] relative w-full"
+        >
+          <iframe 
+            src="https://maps.google.com/maps?q=Radha%20Optical%20Co%2C%20Alagapuram%2C%20Salem%2C%20Tamil%20Nadu&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            className="absolute inset-0 w-full h-full border-0 grayscale opacity-85 hover:grayscale-0 hover:opacity-100 transition-all duration-500" 
+            allowFullScreen="" 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Radha Optical Co Location Map"
+          ></iframe>
+        </motion.div>
       </div>
     </section>
   );
