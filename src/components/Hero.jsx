@@ -6,10 +6,16 @@ import { Link } from 'react-scroll';
 const Hero = () => {
   return (
     <section id="hero" className="relative pt-28 md:pt-[clamp(6rem,8vw,9rem)] pb-20 md:pb-32 flex items-center justify-center bg-slate-50 overflow-hidden">
-      {/* Background Decorative Elements */}
+      {/* Background Image & Decorative Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-100/40 blur-3xl" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-100/40 blur-3xl" />
+        <img 
+          src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+          alt="Premium optical store background" 
+          className="absolute inset-0 w-full h-full object-cover opacity-25"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-50/90 via-white/80 to-teal-50/90"></div>
+        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-200/40 blur-3xl" />
+        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-200/40 blur-3xl" />
       </div>
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-2 gap-12 md:gap-24 items-center w-full">
