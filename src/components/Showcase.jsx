@@ -15,7 +15,7 @@ const Showcase = () => {
     },
     {
       title: "Kids Collection",
-      image: "https://plus.unsplash.com/premium_photo-1661380693350-35e40970c1a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDc4fHx8ZW58MHx8fHx8",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ61OPCHuQXhYicfOBqZlxp6b-FCZpfa6zByYsDosBRRtMpnSHCJaD8SN4&s=10",
       description: "Durable and colorful frames designed for active children."
     }
   ];
