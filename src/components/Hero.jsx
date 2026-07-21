@@ -5,14 +5,25 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative pt-28 md:pt-[clamp(6rem,8vw,9rem)] pb-20 md:pb-32 flex items-center justify-center bg-slate-50 overflow-hidden">
+    <section id="hero" className="relative pt-28 md:pt-[clamp(6rem,8vw,9rem)] pb-20 md:pb-32 flex items-center justify-center bg-gradient-to-tr from-slate-50 via-teal-50/20 to-blue-50/30 overflow-hidden">
       {/* Background Decorative Elements */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-100/40 blur-3xl" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-100/40 blur-3xl" />
+      <div className="absolute inset-0 overflow-hidden z-0 pointer-events-none">
+        {/* Subtle Precision Grid Pattern */}
+        <svg className="absolute inset-0 w-full h-full opacity-[0.03] text-slate-900" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" strokeWidth="1" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid)" />
+        </svg>
+
+        {/* Dynamic Colorful Blurs */}
+        <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-teal-200/30 blur-[100px] animate-pulse" style={{ animationDuration: '8s' }} />
+        <div className="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] rounded-full bg-blue-200/30 blur-[120px] animate-pulse" style={{ animationDuration: '10s' }} />
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 grid md:grid-cols-2 gap-12 md:gap-24 items-center w-full">
+      <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 flex flex-col md:grid md:grid-cols-2 gap-12 md:gap-24 items-center w-full">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -58,7 +69,7 @@ const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="relative hidden md:flex md:justify-center md:items-center"
+          className="relative flex justify-center items-center w-full mt-8 md:mt-0 order-first md:order-last"
         >
           <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white w-[clamp(250px,30vw,350px)] mx-auto">
             <img 

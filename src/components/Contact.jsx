@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock, Calendar } from 'lucide-react';
 const Contact = () => {
   return (
     <section id="contact" className="py-20 md:py-32 bg-slate-900 text-white relative">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1555621457-36e2f42a5a04?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] opacity-5 bg-cover bg-center"></div>
+      
       
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         <div className="text-center mb-16 md:mb-24">

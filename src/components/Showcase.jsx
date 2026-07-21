@@ -15,7 +15,7 @@ const Showcase = () => {
     },
     {
       title: "Kids Collection",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ61OPCHuQXhYicfOBqZlxp6b-FCZpfa6zByYsDosBRRtMpnSHCJaD8SN4&s=10",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8h3-Z50uVNlvwc3XhKdjCnHtJLvuvyiI6UITPEd-Haw&s=10",
       description: "Durable and colorful frames designed for active children."
     }
   ];
@@ -52,7 +52,7 @@ const Showcase = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.15 }}
-              className="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/5] cursor-pointer"
+              className="group relative rounded-2xl overflow-hidden shadow-lg aspect-square md:aspect-[4/5] cursor-pointer"
             >
               <img 
                 src={item.image} 
