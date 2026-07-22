@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 const slides = [
   {
     id: 1,
-    image: '/images/banner1.png',
+    image: './images/banner1.png',
     badge: 'New Arrivals 2026',
     title: 'See the World',
     highlight: 'in Style',
@@ -20,7 +20,7 @@ const slides = [
   },
   {
     id: 2,
-    image: '/images/banner2.png',
+    image: './images/banner2.png',
     badge: 'Premium Collection',
     title: 'Precision Crafted',
     highlight: 'Eyewear',
@@ -49,7 +49,7 @@ const slides = [
   },
   {
     id: 4,
-    image: '/images/banner4.png',
+    image: './images/banner4.png',
     badge: 'Boutique Edition',
     title: 'Elegance Meets',
     highlight: 'Vision',
@@ -63,7 +63,7 @@ const slides = [
   },
   {
     id: 5,
-    image: '/images/banner5.png',
+    image: './images/banner5.png',
     badge: 'Titanium Series',
     title: 'Minimal Design,',
     highlight: 'Maximum Impact',

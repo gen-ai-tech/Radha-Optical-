@@ -274,7 +274,7 @@ const FeaturedSection = () => {
             className="relative rounded-2xl overflow-hidden h-56 md:h-72 group cursor-pointer shadow-lg"
           >
             <img
-              src="/kid_with_glasses.png"
+              src="./kid_with_glasses.png"
               alt="Kids Eyewear"
               className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
             />

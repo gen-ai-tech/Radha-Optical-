@@ -13,7 +13,7 @@ const services = [
     description:
       'We provide precise, high-quality prescription lenses tailored to your vision needs, ensuring maximum clarity and comfort with every pair of glasses.',
     bullets: ['Single vision lenses', 'Progressive lenses', 'Blue light protection', 'Anti-reflective coating'],
-    image: '/images/image copy.png',
+    image: './images/image copy.png',
     accent: '#14b8a6',
     gradient: 'from-teal-500 to-cyan-400',
     bg: 'from-teal-50 to-cyan-50',
@@ -27,7 +27,7 @@ const services = [
     description:
       'Our frame stylists guide you through thousands of options — matching the perfect frame to your face shape, skin tone, and lifestyle for a look that is uniquely yours.',
     bullets: ['Face-shape analysis', '1000+ frame choices', 'International brands', 'Virtual try-on'],
-    image: '/images/image copy 2.png',
+    image: './images/image copy 2.png',
     accent: '#6366f1',
     gradient: 'from-indigo-500 to-violet-400',
     bg: 'from-indigo-50 to-violet-50',
@@ -41,7 +41,7 @@ const services = [
     description:
       'Expert consultation and precise fitting for all types of contact lenses — daily, monthly, toric and multifocal — ensuring crystal-clear vision and all-day comfort.',
     bullets: ['Toric & multifocal lenses', 'Trial lenses available', 'Hygiene guidance', 'Follow-up care'],
-    image: '/images/image.png',
+    image: './images/image.png',
     accent: '#f59e0b',
     gradient: 'from-amber-500 to-orange-400',
     bg: 'from-amber-50 to-orange-50',
@@ -55,7 +55,7 @@ const services = [
     description:
       'Explore our vast collection of designer sunglasses offering 100% UV protection, polarization, and unparalleled style for any occasion.',
     bullets: ['Polarized lenses', '100% UV Protection', 'Designer brands', 'Sports eyewear'],
-    image: '/images/image copy.png',
+    image: './images/image copy.png',
     accent: '#ec4899',
     gradient: 'from-pink-500 to-rose-400',
     bg: 'from-pink-50 to-rose-50',
