@@ -7,7 +7,7 @@ const Reviews = () => {
     {
       name: "Priya K.",
       role: "Local Guide",
-      content: "Best optical showroom in Salem! The staff is extremely knowledgeable and helped me pick out the perfect frames. The eye testing equipment is very modern.",
+      content: "Best optical showroom in Salem! The staff is extremely knowledgeable and helped me pick out the perfect frames. The customer service is excellent.",
       rating: 5
     },
     {
@@ -19,7 +19,7 @@ const Reviews = () => {
     {
       name: "Anita R.",
       role: "Verified Buyer",
-      content: "Great collection of branded frames. The optometrist took their time to explain my prescription. Highly recommend for anyone needing premium eye care.",
+      content: "Great collection of branded frames. The staff took their time to help me choose the right lenses. Highly recommend for anyone needing premium eyewear.",
       rating: 4.5
     }
   ];

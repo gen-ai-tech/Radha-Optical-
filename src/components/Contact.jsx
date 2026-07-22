@@ -25,7 +25,7 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-slate-300 max-w-2xl mx-auto"
           >
-            Drop by our showroom in Salem or book an appointment for a comprehensive eye checkup.
+            Drop by our showroom in Salem or book an appointment to explore our exclusive collections.
           </motion.p>
         </div>
 
